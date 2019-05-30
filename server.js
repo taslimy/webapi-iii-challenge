@@ -13,7 +13,7 @@ server.use("/api/posts", postsRouter);
 server.use('/api/users', userRouter);
 
 server.get("/", (req, res) => {
-  res.send(`<h2>Let's write some middleware!</h2>`);
+  res.send(`<h4>Welcome to the Servers Blog :)</h4>`);
 });
 
 //custom middleware
